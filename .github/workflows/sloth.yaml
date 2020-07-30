@@ -13,6 +13,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build and deploy Segment Function
-        uses: christyharagan/sloth-github-action@v1.1.0
-        env:
-          access_token: ${{ secrets.SEGMENT_ACCESS_TOKEN }}
+        uses: christyharagan/sloth-github-action@v1.2.0
+        with:
+          segment-access-token: ${{ secrets.SEGMENT_ACCESS_TOKEN }}
+          segment-workspace-slug: ${{ secrets.SEGMENT_WORKSPACE_SLUG }}
+          segment-workspace-id: ${{ secrets.SEGMENT_WORKSPACE_ID }}
