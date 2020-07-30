@@ -14,3 +14,5 @@ jobs:
         run: npm install
       - name: Build and deploy Segment Function
         uses: christyharagan/sloth-github-action@v1.1.0
+        with:
+          access_token: ${{ secrets.SEGMENT_ACCESS_TOKEN }}
