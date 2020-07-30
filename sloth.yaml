@@ -1,4 +1,4 @@
-fn_name: Iterable Dedup
+fn_name: Iterable Dedupe
 fn_type: destination
 language: typescript
 debug_port: 5858
@@ -8,6 +8,5 @@ github_deployment: true
 access_token_is_saved: true
 generate_tests: true
 use_ngrok: true
-work_slug: REPLACE_ME
-work_id: REPLACE_ME
-access_token: REPLACE_ME_OR_DELETE_ME
+work_slug: fiit
+work_id: KpakZGK0SB
